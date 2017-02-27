@@ -1,0 +1,14 @@
+{
+    "name": "eggsecute-shutdown",
+    "title": "Eggsecute Shutdown",
+    "version": "1.0.0",
+    "description": "Dark Brackets theme inspired by Eggsecutor.",
+    "author": "JamesPark.NINJA <design@jamespark.ninja>",
+    "homepage": "https://github.com/JamesParkNINJA/eggsecute-shutdown/",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.css",
+        "dark": true
+    },
+    "keywords": ["theme","nature","pokemon","eggsecutor","dark"]
+}

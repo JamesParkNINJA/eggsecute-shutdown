@@ -1,0 +1,239 @@
+/*Side- and statusbar*/
+
+#working-set-header,
+#working-set-list-container {
+    /* Working files */
+    background: rgba(0, 0, 0, 0.2);
+}
+#project-files-header .btn-alt-quiet {
+    /* Folder button */
+    background: rgba(0,0,0,0.1);
+}
+.sidebar-selection,
+.filetree-selection {
+    /* Selected file or folder */
+    background: rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+#sidebar,
+#main-toolbar,
+#status-bar,
+.inline-widget {
+    background-color: #3D3D3D !important;
+}
+#status-bar {
+    border-top: 1px solid #666;
+    color: #CCC;
+}
+.CodeMirror,
+.CodeMirror-gutters,
+.CodeMirror-scroll,
+#sidebar,
+#main-toolbar,
+#editor-holder #not-editor,
+.inline-widget {
+    background-color: #202020;
+}
+.CodeMirror-gutter-filler,
+.CodeMirror-scrollbar-filler {
+    background: transparent;
+}
+
+/* Scrollbars */
+.platform-win .CodeMirror-scrollbar-filler,.platform-win .CodeMirror-gutter-filler, .platform-linux .CodeMirror-scrollbar-filler,.platform-linux .CodeMirror-gutter-filler, .platform-win .CodeMirror-scrollbar-filler, .platform-win .CodeMirror-gutter-filler, .platform-win ::-webkit-scrollbar {
+    background: #292929 !important;
+}
+
+.platform-win ::-webkit-scrollbar-thumb {
+    box-shadow: none;
+    background: #343434;
+}
+
+.platform-win ::-webkit-scrollbar-thumb:hover,.platform-win ::-webkit-scrollbar-thumb:focus {
+    box-shadow: none;
+    background: #4C4C4C;
+}
+
+.platform-win ::-webkit-scrollbar-thumb:active {
+    box-shadow: none;
+    background: #666;
+}
+
+
+/*Main area*/
+
+.CodeMirror {
+    line-height: 1.40em;
+    color: #E6E1DC;
+    -webkit-box-shadow: inset 0 0 10px black;
+    -moz-box-shadow: inset 0 0 10px black;
+    box-shadow: inset 0 0 10px black;
+}
+.CodeMirror-gutters {
+    background: #3D3D3D;
+    border-right: 1px solid #4D4D4D;
+    box-shadow: 0 10px 20px black;
+}
+.CodeMirror-linenumber {
+    text-shadow: 0 1px 1px #4d4d4d;
+    color: #222;
+}
+.inline-text-editor .CodeMirror-linenumber {
+    text-shadow: 0 1px 1px #2d2d2d;
+    color: #111;
+}
+.CodeMirror-lines .CodeMirror-cursor {
+    border-left: 1px solid #7991E8 !important;
+}
+/*Syntax elements & action*/
+
+.cm-keyword {
+    color: #d0470a;
+    text-shadow: 0px 0px 2px rgba(216, 111, 21, 0.7) !important;
+}
+.cm-atom {
+    color: #dd539c;
+    text-shadow: 0px 0px 2px rgba(191, 45, 180, 0.7) !important;
+}
+.cm-number {
+    color: #78CF8A;
+}
+.cm-def {
+    color: #aac6e3;
+}
+.cm-variable {
+    color: #3bff00;
+}
+.cm-variable-2 {
+    color: #eab527;
+    text-shadow: 0px 0px 2px rgba(201, 196, 61, 0.7) !important;
+}
+.cm-variable-3 {
+    color: #faded3;
+}
+.cm-property {
+    color: #eed1b3;
+}
+.cm-operator {
+    color: #fa8d6a;
+}
+.cm-comment {
+    color: #55774a;
+    font-style: italic;
+}
+.cm-string {
+    color: #95a765;
+}
+.cm-string-2 {
+    color: #9d937c;
+}
+.cm-meta {
+    color: #d8d8d8;
+}
+.cm-error {
+    color: #AF2018;
+}
+.cm-qualifier {
+    color: yellow;
+}
+.cm-builtin {
+    color: #9999cc;
+}
+.cm-bracket {
+    color: #24C2C7;
+}
+.cm-tag {
+    color: #228615;
+}
+.cm-tag.cm-error {
+    color: #AF2018;
+}
+.cm-attribute {
+    color: #50e555;
+}
+.cm-header {
+    color: blue;
+}
+.cm-quote {
+    color: #24C2C7;
+}
+.cm-hr {
+    color: pink;
+}
+.cm-link {
+    color: #F4C20B;
+}
+.cm-special {
+    color: #FF9D00;
+}
+.CodeMirror-matchingbracket {
+    color: #122113 !important;
+    background: #50e555 !important;
+    text-shadow: 0px 0px 2px rgba(4, 21, 5, 0.7) !important;
+}
+.CodeMirror-searching {
+    color: #122113 !important;
+    background: #50e555 !important;
+    text-shadow: 0px 0px 2px rgba(4, 21, 5, 0.7) !important;
+}
+.CodeMirror-nonmatchingbracket {
+    color: #f22;
+}
+.CodeMirror-selected {
+    background: rgba(255, 255, 255, 0.15);
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: rgba(255, 255, 255, 0.1);
+}
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: rgba(255, 255, 255, 0.1);
+}
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: none;
+}
+.CodeMirror-matchingtag {
+    color: #122113 !important;
+    background: #50e555 !important;
+    text-shadow: 0px 0px 2px rgba(4, 21, 5, 0.7) !important;
+}
+.CodeMirror .CodeMirror-linenumber {
+    color: #eed1b3;
+}
+.CodeMirror pre {
+    padding: 0 15px 0 5px
+}
+/* Other */
+
+.inline-widget {
+    /* Quick-edit etc. */
+    background-color: #2e2d2d;
+}
+.close {
+    /* close icon in inline-widgets */
+    color: #eed1b3;
+}
+.close:hover {
+    color: #CCC;
+}
+
+.css-prop-defn code,
+.css-prop-defn h1,
+.css-prop-values dl dt {
+    color: #999;
+}
+.css-prop-defn {
+    color: #CCC;
+}
+.divider-holder .divider {
+    border-right: 1px solid rgb(50, 51, 49);
+    border-left: 1px solid rgb(34, 36, 32);
+}
+a.more-info {
+    background-color: #454545;
+    border: 1px solid #555;
+    border-bottom: none;
+    box-shadow: inset 0 1px 0 #777;
+    text-shadow: none;
+    color: #CCC;
+}
