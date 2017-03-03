@@ -23,7 +23,7 @@ This extension requires Brackets Release 1.0 or newer.
 1. Open Brackets
 2. Open the Extension Manager
 3. Switch to "Themes" tab
-4. Search for "Nature Be Scary"
+4. Search for "Eggsecute Shutdown"
 5. Click "Install"
 
 License
