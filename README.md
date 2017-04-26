@@ -3,6 +3,8 @@ Brackets Theme: Eggsecute Shutdown
 
 A theme for Brackets that is based on nature (and really reminds me of the pokémon "Eggsecutor"). Based on the original Ambiance theme from CodeMirror.
 
+Like what I do? [Donate me a beer!](https://www.paypal.me/jamesparkninja/4)
+
 <!--Screenshots UPDATE LATER
 ---
 
